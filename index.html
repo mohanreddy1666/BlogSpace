@@ -1,9 +1,22 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Karla:wght@200;400;700&display=swap" rel="stylesheet">
         <link href="index.css" rel="stylesheet">
     </head>
     <body>
+        <nav>
+            <h1>BlogSpace</h1>
+        </nav>
+        <form id="new-post">
+            <label for="title">Post Title:</label>
+            <input type="text" id="title" >
+            <label for="body">Post Body:</label>
+            <textarea id="body"></textarea>
+            <button id="btn" type="submit">POST</button>
+        </form>
+        <div id="blog-post"></div>
         <script src="index.js"></script>
     </body>
 </html>
