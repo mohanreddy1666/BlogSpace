@@ -1,0 +1,42 @@
+body {
+    font-family: 'Karla', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: beige;
+    padding: 5px;
+    height: 30px;
+    display: flex;
+    align-items: center;  
+    width: 100%;
+    /* position: fixed;  */
+}
+
+nav > h1 {
+    margin: 0;
+}
+
+#blog-post {
+    padding: 10px 10px;
+}
+
+form {
+    background-color: lightcyan;
+    padding: 30px 10px 10px;
+    display: grid;
+}
+
+input#title, textarea#body {
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px;
+    font-size: 18px;
+    background-color: lightskyblue;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+}
